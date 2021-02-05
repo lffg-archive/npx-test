@@ -1,13 +1,13 @@
 {
-  "name": "@lffg/test-npx",
-  "version": "0.1.1",
+  "name": "@lffg/npx-test",
+  "version": "0.2.0",
   "author": "Luiz Felipe Gonçalves <https://luizfelipe.dev>",
   "license": "MIT",
   "files": [
     "build"
   ],
   "bin": {
-    "test-npx": "./build/bin.js"
+    "npx-test": "./build/bin.js"
   },
   "scripts": {
     "build": "del build && tsc",
